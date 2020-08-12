@@ -8,10 +8,9 @@ I began by collecting all of the strain names on their website, then visited eac
 and to click to load all reviews. From there I was able to create a dataset of all the feelings the users reported, THC content, the star rating, any images available,
 parents and children of the strain, and the level of various terpenes in the strain. 
 
-The other files were collected from an API that updated the above mentioned Kaggle dataset, and another API called Otreeba. The other notebooks clean the incoming leafly data
-before merging it with the other files. In the last cell of the last cleaning notebook, I filter a dataset of 10,000 strains down to about 3,000 which contain the most
-information about their strains. This created valuable, clean, and informative data that the web side is using to create a beautiful app. I have assisted them with crafting
-the associated graphs in JavaScript. 
+The other files, merged.csv and jose_strains_cleaned.csv, were collected from an API that updated the above mentioned Kaggle dataset, and another API called Otreeba.You can find
+multiple leafly files in stages of cleaning and merging, with the 2_leafly_merge_subset being the final result and leafly_scraped_all containing the raw scraped data.
+The other notebooks clean the incoming leafly data before merging it with the other files. In the last cell of the last cleaning notebook, I filter a dataset of 10,000 strains down to about 3,000 which contain the most information about their strains. This created valuable, clean, and informative data that the web side is using to create a beautiful app. I have assisted them with crafting the associated graphs in JavaScript. 
 
 Through this project I learned HTML backwards and forward, BeautifulSoup and Selenium, and how to navigate CSS and JS features such as lazy loading. It was very valuable,
 not to mention enjoyable, to learn so much by simply applying myself and learning anything I needed to solve the problem. 
